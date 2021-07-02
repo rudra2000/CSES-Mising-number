@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin >> n;
+    while(n--){
+        int g, c;
+        cin >> g >> c ;
+        int f = (c * c) / (2 * g);
+        cout << f << endl;
+    }
+    return 0;
+}
