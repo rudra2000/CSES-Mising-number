@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main()
+{
+    int n;
+    // int d, x, y, z;
+    cin >> n;
+    // for (int i = 1; i <= 3; i++)
+    while(n--)
+    {
+        int d, x, y, z;
+        cin >> d >> x >> y >> z;
+        int e1 = 7 * x;
+        int e2 = (d * y) + (7 - d) * z;
+        cout << max(e1, e2) << endl;
+    }
+
+    return 0;
+}
